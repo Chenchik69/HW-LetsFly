@@ -1,0 +1,115 @@
+@import 'styles/colors.scss';
+@import 'styles/header.scss';
+@import 'styles/socials.scss';
+@import 'styles/nav.scss';
+@import 'styles/first-screen.scss';
+@import 'styles/about.scss';
+@import 'styles/about-card.scss';
+@import 'styles/nearest-trip.scss';
+@import 'styles/popular-ways.scss';
+@import 'styles/travel-stories.scss';
+@import 'styles/footer.scss';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Quicksand&family=Roboto&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?46pfyy');
+    src:  url('../fonts/icomoon.eot?46pfyy#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?46pfyy') format('truetype'),
+      url('../fonts/icomoon.woff?46pfyy') format('woff'),
+      url('../fonts/icomoon.svg?46pfyy#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #070707;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 56px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.text {
+    font-family: 'Quicksand', sans-serif;
+    width: 1066px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 32px;
+}
+
+.text--white{
+    color:white;
+}
+.text--black{
+    color:#070707;
+}
+
+.order-btn{
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    width: 320px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFFFFF;
+    background: #1ED500;
+    border: none;
+}
+
+.twitter{
+    font-family: 'icomoon';
+    font-size: 20px;
+    font-style: normal;
+}
+
+.facebook{
+    font-family: 'icomoon';
+    font-size: 24px;
+    font-style: normal;
+}
+
+.vk{
+    font-family: 'icomoon';
+    font-size: 14px;
+    font-style: normal;
+}
+
+.youtube{
+    font-family: 'icomoon';
+    font-size: 16px;
+    font-style: normal;
+}
+
+.insta{
+    font-family: 'icomoon';
+    font-size: 36px;
+    font-style: normal;
+}
+

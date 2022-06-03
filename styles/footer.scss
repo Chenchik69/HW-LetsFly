@@ -1,0 +1,22 @@
+@import 'mixins.scss';
+
+.footer {
+    display: flex;
+    align-items: center;
+    background: url(../assets/Mountains.jpg) no-repeat, center;
+    background-size: cover;
+    padding-right: 150px;
+    padding-left: 150px;
+    height: 200px;
+
+
+    &__main {
+        flex-grow: 1;
+        @include centerable;
+    }
+
+    &__logo {
+        font-family: 'Roboto Slab', serif;
+        font-size: 32px;
+    }
+}

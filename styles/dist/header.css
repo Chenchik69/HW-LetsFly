@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding-right: 150px;
+  padding-left: 150px;
+  height: 96px;
+}
+.header__main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__logo {
+  font-family: "Roboto Slab", serif;
+  font-size: 32px;
+}

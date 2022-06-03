@@ -1,0 +1,6 @@
+.socials__list-item {
+  margin-right: 32px;
+}
+.socials__list-item:last-child {
+  margin-right: 0;
+}

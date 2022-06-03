@@ -1,0 +1,52 @@
+.popular-ways {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.popular-ways__list {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.popular-ways__card {
+  min-height: 340px;
+  min-width: 515px;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+}
+.popular-ways__card:not(:last-child) {
+  margin-right: 40px;
+}
+.popular-ways__card_text {
+  font-family: "Roboto Slab";
+  font-size: 18px;
+  margin-top: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.prague {
+  background: url(../assets/city.jpg) no-repeat, center;
+}
+
+.portugal {
+  background: url(../assets/food.jpg) no-repeat, center;
+}
+
+.dubai {
+  background: url(../assets/ocean.jpg) no-repeat, center;
+}
+
+.insta-text {
+  font-family: "Quicksand";
+  font-size: 14px;
+  line-height: 18px;
+  min-width: 110px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #333333;
+}

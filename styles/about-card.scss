@@ -1,0 +1,70 @@
+.about-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    min-width: 320px;
+
+    &:not(:last-child) {
+        margin-right: 124px;
+    }
+
+    &__content {
+        position: absolute;
+        top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__stats {
+        font-size: 144px;
+        font-weight: bold;
+        font-family: 'Roboto Slab', serif;
+        color: $green;
+    }
+
+    &__description {
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 32px;
+
+
+        margin-top: 25px;
+
+        text-align: center;
+        
+        color: #333333;
+    }
+}
+
+.man{
+    font-family: 'icomoon';
+    color: black;
+    font-size: 140px;
+    font-style: normal;
+}
+
+.luggage{
+    font-family: 'icomoon';
+    color: black;
+    font-size: 140px;
+    font-style: normal;
+}
+
+.planet{
+    font-family: 'icomoon';
+    color: black;
+    font-size: 140px;
+    font-style: normal;
+}
+
+.lover{
+    font-family: 'icomoon';
+    color: black;
+    font-size: 140px;
+    font-style: normal;
+}

@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  align-items: center;
+  background: url(../assets/Mountains.jpg) no-repeat, center;
+  background-size: cover;
+  padding-right: 150px;
+  padding-left: 150px;
+  height: 200px;
+}
+.footer__main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__logo {
+  font-family: "Roboto Slab", serif;
+  font-size: 32px;
+}
