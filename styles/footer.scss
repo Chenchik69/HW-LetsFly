@@ -14,9 +14,4 @@
         flex-grow: 1;
         @include centerable;
     }
-
-    &__logo {
-        font-family: 'Roboto Slab', serif;
-        font-size: 32px;
-    }
 }

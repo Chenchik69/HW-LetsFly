@@ -9,15 +9,17 @@
     &__list{
         margin-top: 40px;
         margin-bottom: 50px;
+        display: flex;
+        justify-content: space-around;
     }
 
     &__card{
         min-height: 340px;
-        min-width: 515px;
+        width: 27%;
         list-style: none;
 
         display: flex;
-        align-items:flex-start;
+        position: relative;
 
         &:not(:last-child) {
             margin-right: 40px;
@@ -33,18 +35,10 @@
             
             color: #FFFFFF;
             background: rgba(0, 0, 0, 0.85);
+
+            position: absolute;
         }
     }
-}
-
-.prague{
-    background: url(../assets/city.jpg) no-repeat, center;
-}
-.portugal{
-    background: url(../assets/food.jpg) no-repeat, center;
-}
-.dubai{
-    background: url(../assets/ocean.jpg) no-repeat, center;
 }
 
 .insta-text{
@@ -58,4 +52,8 @@
     margin-bottom: 8px;
     
     color: #333333;
+}
+
+.ways-pfoto{
+    width: 100%;
 }

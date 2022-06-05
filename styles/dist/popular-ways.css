@@ -8,13 +8,15 @@
 .popular-ways__list {
   margin-top: 40px;
   margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
 }
 .popular-ways__card {
   min-height: 340px;
-  min-width: 515px;
+  width: 27%;
   list-style: none;
   display: flex;
-  align-items: flex-start;
+  position: relative;
 }
 .popular-ways__card:not(:last-child) {
   margin-right: 40px;
@@ -27,18 +29,7 @@
   padding-right: 8px;
   color: #FFFFFF;
   background: rgba(0, 0, 0, 0.85);
-}
-
-.prague {
-  background: url(../assets/city.jpg) no-repeat, center;
-}
-
-.portugal {
-  background: url(../assets/food.jpg) no-repeat, center;
-}
-
-.dubai {
-  background: url(../assets/ocean.jpg) no-repeat, center;
+  position: absolute;
 }
 
 .insta-text {
@@ -49,4 +40,8 @@
   margin-top: 8px;
   margin-bottom: 8px;
   color: #333333;
+}
+
+.ways-pfoto {
+  width: 100%;
 }

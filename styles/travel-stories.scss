@@ -14,22 +14,22 @@
         margin-bottom: 50px;
 
         display: flex;
-        align-items:center
+        align-items:center;
+        justify-content: space-around;
 
     }
 
     &__card{
         position: relative;
 
-        min-height: 300px;
-        min-width: 440px;
         list-style: none;
 
         display: flex;
-        align-items:flex-start;
 
-        &:not(:last-child) {
-            margin-right: 112px;
+        width: 23%;
+
+        &--middle{
+            width: 27%;
         }
 
         &_text{
@@ -48,19 +48,6 @@
     }
 }
 
-.thailand{
-    background: url(../assets/thailand.jpg) no-repeat, center;
-}
-.girl-with-scuter{
-    background: url(../assets/scuter.jpg) no-repeat, center;
-    min-height: 340px;
-    min-width: 515px;
-
-}
-.northern-light{
-    background: url(../assets/Northern-Lights.jpg) no-repeat, center;
-}
-
 .play{
     font-family: 'icomoon';
     color: white;
@@ -77,4 +64,8 @@
     justify-content: center;
     
     position: absolute;
+}
+
+.stories-pfoto{
+    width: 100%;
 }

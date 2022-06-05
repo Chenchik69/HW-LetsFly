@@ -12,17 +12,16 @@
   margin-bottom: 50px;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 .stories__card {
   position: relative;
-  min-height: 300px;
-  min-width: 440px;
   list-style: none;
   display: flex;
-  align-items: flex-start;
+  width: 23%;
 }
-.stories__card:not(:last-child) {
-  margin-right: 112px;
+.stories__card--middle {
+  width: 27%;
 }
 .stories__card_text {
   font-family: "Lato";
@@ -33,20 +32,6 @@
   text-transform: uppercase;
   color: #FFFFFF;
   background: rgba(0, 0, 0, 0.85);
-}
-
-.thailand {
-  background: url(../assets/thailand.jpg) no-repeat, center;
-}
-
-.girl-with-scuter {
-  background: url(../assets/scuter.jpg) no-repeat, center;
-  min-height: 340px;
-  min-width: 515px;
-}
-
-.northern-light {
-  background: url(../assets/Northern-Lights.jpg) no-repeat, center;
 }
 
 .play {
@@ -63,4 +48,8 @@
   align-items: center;
   justify-content: center;
   position: absolute;
+}
+
+.stories-pfoto {
+  width: 100%;
 }

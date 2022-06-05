@@ -6,14 +6,15 @@
   padding-right: 150px;
   padding-left: 150px;
   height: 96px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 .header__main {
   flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.header__logo {
-  font-family: "Roboto Slab", serif;
-  font-size: 32px;
 }

@@ -1,14 +1,16 @@
+.about__list{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
 .about-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
 
-    min-width: 320px;
-
-    &:not(:last-child) {
-        margin-right: 124px;
-    }
+    min-width: 17%;
 
     &__content {
         position: absolute;

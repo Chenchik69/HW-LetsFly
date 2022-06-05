@@ -9,14 +9,15 @@
     padding-left: 150px;
     height: 96px;
 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
 
     &__main {
         flex-grow: 1;
         @include centerable;
-    }
-
-    &__logo {
-        font-family: 'Roboto Slab', serif;
-        font-size: 32px;
     }
 }

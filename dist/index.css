@@ -8,16 +8,17 @@
   padding-right: 150px;
   padding-left: 150px;
   height: 96px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 .header__main {
   flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.header__logo {
-  font-family: "Roboto Slab", serif;
-  font-size: 32px;
 }
 
 .socials__list-item {
@@ -42,7 +43,7 @@
   height: 100vh;
 }
 .firstCase__black-box {
-  width: 1340px;
+  width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -80,15 +81,18 @@
   height: 100vh;
 }
 
+.about__list {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+
 .about-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
-  min-width: 320px;
-}
-.about-card:not(:last-child) {
-  margin-right: 124px;
+  min-width: 17%;
 }
 .about-card__content {
   position: absolute;
@@ -148,7 +152,6 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  padding: 55px 430px 105px 430px;
   background: url(../assets/sunset.jpg) no-repeat, center;
   background-size: cover;
 }
@@ -193,13 +196,15 @@ hr {
 .popular-ways__list {
   margin-top: 40px;
   margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
 }
 .popular-ways__card {
   min-height: 340px;
-  min-width: 515px;
+  width: 27%;
   list-style: none;
   display: flex;
-  align-items: flex-start;
+  position: relative;
 }
 .popular-ways__card:not(:last-child) {
   margin-right: 40px;
@@ -212,18 +217,7 @@ hr {
   padding-right: 8px;
   color: #FFFFFF;
   background: rgba(0, 0, 0, 0.85);
-}
-
-.prague {
-  background: url(../assets/city.jpg) no-repeat, center;
-}
-
-.portugal {
-  background: url(../assets/food.jpg) no-repeat, center;
-}
-
-.dubai {
-  background: url(../assets/ocean.jpg) no-repeat, center;
+  position: absolute;
 }
 
 .insta-text {
@@ -234,6 +228,10 @@ hr {
   margin-top: 8px;
   margin-bottom: 8px;
   color: #333333;
+}
+
+.ways-pfoto {
+  width: 100%;
 }
 
 .stories {
@@ -250,17 +248,16 @@ hr {
   margin-bottom: 50px;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 .stories__card {
   position: relative;
-  min-height: 300px;
-  min-width: 440px;
   list-style: none;
   display: flex;
-  align-items: flex-start;
+  width: 23%;
 }
-.stories__card:not(:last-child) {
-  margin-right: 112px;
+.stories__card--middle {
+  width: 27%;
 }
 .stories__card_text {
   font-family: "Lato";
@@ -271,20 +268,6 @@ hr {
   text-transform: uppercase;
   color: #FFFFFF;
   background: rgba(0, 0, 0, 0.85);
-}
-
-.thailand {
-  background: url(../assets/thailand.jpg) no-repeat, center;
-}
-
-.girl-with-scuter {
-  background: url(../assets/scuter.jpg) no-repeat, center;
-  min-height: 340px;
-  min-width: 515px;
-}
-
-.northern-light {
-  background: url(../assets/Northern-Lights.jpg) no-repeat, center;
 }
 
 .play {
@@ -303,6 +286,10 @@ hr {
   position: absolute;
 }
 
+.stories-pfoto {
+  width: 100%;
+}
+
 .footer {
   display: flex;
   align-items: center;
@@ -317,10 +304,6 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.footer__logo {
-  font-family: "Roboto Slab", serif;
-  font-size: 32px;
 }
 
 @font-face {
@@ -356,7 +339,7 @@ ul {
 
 .text {
   font-family: "Quicksand", sans-serif;
-  width: 1066px;
+  width: 55%;
   text-align: center;
   font-size: 20px;
   margin-top: 32px;
@@ -368,6 +351,11 @@ ul {
 
 .text--black {
   color: #070707;
+}
+
+logo {
+  font-family: "Roboto Slab", serif;
+  font-size: 32px;
 }
 
 .order-btn {
