@@ -64,7 +64,7 @@ ul {
     color:#070707;
 }
 
-logo {
+.logo {
     font-family: 'Roboto Slab', serif;
     font-size: 32px;
 }
@@ -86,35 +86,50 @@ logo {
     color: #FFFFFF;
     background: #1ED500;
     border: none;
+
+    cursor: pointer;
 }
 
 .twitter{
     font-family: 'icomoon';
     font-size: 20px;
     font-style: normal;
+    cursor: pointer;
 }
 
 .facebook{
     font-family: 'icomoon';
     font-size: 24px;
     font-style: normal;
+    cursor: pointer;
 }
 
 .vk{
     font-family: 'icomoon';
     font-size: 14px;
     font-style: normal;
+    cursor: pointer;
 }
 
 .youtube{
     font-family: 'icomoon';
     font-size: 16px;
     font-style: normal;
+    cursor: pointer;
 }
 
 .insta{
     font-family: 'icomoon';
     font-size: 36px;
     font-style: normal;
+    cursor: pointer;
 }
 
+.links--style{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+.black-link{
+    color:#070707;
+}

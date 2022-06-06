@@ -21,10 +21,6 @@
         display: flex;
         position: relative;
 
-        &:not(:last-child) {
-            margin-right: 40px;
-        }
-
         &_text{
             font-family: 'Roboto Slab';
             font-size: 18px;
